@@ -13,9 +13,9 @@ http://127.0.0.1:8000/
 **/api/pet/** — GET, POST<br/>
 **/api/pet/<pet_id>** — GET, PUT, DELETE<br/>
 **/api/lot/** — GET, POST<br/>
-**/api/lot/<lot_pk>/** — GET, PUT, DELETE<br/>
-**/api/lot/<lot_pk>/bid/** — GET, POST<br/>
-**/api/lot/<lot_pk>/bid/<bid_pk>/** — GET, PUT, DELETE<br/>
-**/api/lot/<lot_pk>/bid/<bid_pk>/accept** — POST<br/>
+**/api/lot/<lot_id>/** — GET, PUT, DELETE<br/>
+**/api/lot/<lot_id>/bid/** — GET, POST<br/>
+**/api/lot/<lot_id>/bid/<bid_id>/** — GET, PUT, DELETE<br/>
+**/api/lot/<lot_id>/bid/<bid_id>/accept** — POST<br/>
 
 Use DRF web interface to see available fields.
