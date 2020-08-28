@@ -10,12 +10,12 @@ http://127.0.0.1:8000/
 
 # API Reference
 
-**/api/pet/** — GET, POST
-**/api/pet/<pet_id>** — GET, PUT, DELETE
-**/api/lot/** — GET, POST
-**/api/lot/<lot_pk>/** — GET, PUT, DELETE
-**/api/lot/<lot_pk>/bid/** — GET, POST
-**/api/lot/<lot_pk>/bid/<bid_pk>/** — GET, PUT, DELETE
-**/api/lot/<lot_pk>/bid/<bid_pk>/accept** — POST
+**/api/pet/** — GET, POST<br/>
+**/api/pet/<pet_id>** — GET, PUT, DELETE<br/>
+**/api/lot/** — GET, POST<br/>
+**/api/lot/<lot_pk>/** — GET, PUT, DELETE<br/>
+**/api/lot/<lot_pk>/bid/** — GET, POST<br/>
+**/api/lot/<lot_pk>/bid/<bid_pk>/** — GET, PUT, DELETE<br/>
+**/api/lot/<lot_pk>/bid/<bid_pk>/accept** — POST<br/>
 
 Use DRF web interface to see available fields.
